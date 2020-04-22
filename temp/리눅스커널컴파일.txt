@@ -1,0 +1,197 @@
+sudo apt install unzip
+chown surani(@@yourname) _love_huni en.stm32cubeprog_v2-4-0.zip
+ tar -xvf en.FLASH-stm32mp1-openstlinux-20-02-19.tar.xz
+
+
+
+
+tar -xvf en.SDK-x86_64-stm32mp1-openstlinux-20-02-19.tar.xz
+
+
+surani_love_huni@DESKTOP-KR9EEDR:~/WS_STM32/devPack/stm32mp1-openstlinux-20-02-19/sdk$ ./st-image-weston-openstlinux-weston-stm32mp1-x86_64-toolchain-2.6-openstlinux-20-02-19.sh
+<이걸로 설치>
+./st-image-weston-openstlinux-weston-stm32mp1-x86_64-toolchain-2.6-openstlinux-20-02-19.sh
+
+=======================================================
+SDK 설치경로 
+./st-image-weston-openstlinux-weston-stm32mp1-x86_64-toolchain-2.6-openstlinux-20-02-19.sh
+ST OpenSTLinux - Weston - (A Yocto Project Based Distro) SDK installer version 2.6-openstlinux-20-02-19
+=======================================================================================================
+Enter target directory for SDK (default: /opt/st/stm32mp1/2.6-openstlinux-20-02-19):
+You are about to install the SDK to "/opt/st/stm32mp1/2.6-openstlinux-20-02-19". Proceed[Y/n]? Y
+=======================================
+
+
+source /opt/st/stm32mp1/2.6-openstlinux-20-02-19/environment-setup-cortexa7t2hf-neon-vfpv4-ostl-linux-gnueabi
+
+
+확인
+surani_love_huni@DESKTOP-KR9EEDR:~/WS_STM32/devPack/stm32mp1-openstlinux-20-02-19/sdk$ echo $ARCH
+arm
+surani_love_huni@DESKTOP-KR9EEDR:~/WS_STM32/devPack/stm32mp1-openstlinux-20-02-19/sdk$ echo $CROSS_COMPILE
+arm-ostl-linux-gnueabi-
+
+
+
+커널경로
+
+:~/WS_STM32/devPack/stm32mp1-openstlinux-20-02-19/sources/arm-ostl-linux-gnueabi/linux-stm32mp-4.19-r0$
+
+
+이쯤해서 히스토리 
+$ history
+    1  ls
+    2  cd
+    3  sl
+    4  ls
+    5  gcc
+    6  sudo apt install build-essintial
+    7  sudo apt install build-esential
+    8  sudo apt update
+    9  sudo apt install build-esential
+   10  sudo apt install build-essential
+   11  sudo reboot
+   12  sudo poweroff
+   13  sudo exit
+   14  sudo halt
+   15  reboot
+   16  vim
+   17  pwd
+   18  code .
+   19  sudo apt update
+   20  sudo apt-get update
+   21  ls
+   22  sudo apt-get install apache2
+   23  hostname -I
+   24  crome
+   25  cd /var/www/html/
+   26  ls
+   27  ls -al
+   28  ls
+   29  rm -rf en.stm32cubeprog_v2-4-0
+   30  sudo rm -rf en.stm32cubeprog_v2-4-0
+   31  ls
+   32  cd en.stm32cubeprog_v2-4-0/
+   33  ls
+   34  cd ..
+   35  ls
+   36  chmod -r 777 en.stm32cubeprog_v2-4-0/
+   37  chmod 777 -r en.stm32cubeprog_v2-4-0/
+   38  chmod en.stm32cubeprog_v2-4-0/ 777
+   39  chmod 777 en.stm32cubeprog_v2-4-0
+   40  chmod -r 777 en.stm32cubeprog_v2-4-0
+   41  chmod 777 en.stm32cubeprog_v2-4-0 -r
+   42  chmod 777 en.stm32cubeprog_v2-4-0
+   43  chmod -R 777 en.stm32cubeprog_v2-4-0
+   44  ls
+   45  cd en.stm32cubeprog_v2-4-0/
+   46  ls
+   47  ./SetupSTM32CubeProgrammer-2.4.0.
+   48  ./SetupSTM32CubeProgrammer-2.4.0.linux
+   49  ./SetupSTM32CubeProgrammer-2.4.0.app/
+   50  cd SetupSTM32CubeProgrammer-2.4.0.app/
+   51  ls
+   52  ls -al
+   53  ls
+   54  cd ..
+   55  rm SetupSTM32CubeProgrammer-2.4.0.
+   56  rm SetupSTM32CubeProgrammer-2.4.0.linux
+   57  sudo rm SetupSTM32CubeProgrammer-2.4.0.linux
+   58  exit
+   59  ls
+   60  unzip en.stm32cubeprog.zip
+   61  sudo apt install unzip
+   62  unzip en.stm32cubeprog.zip
+   63  unzip en.stm32cubeprog_v2-4-0.zip
+   64  chmod 777 en.stm32cubeprog_v2-4-0.zip
+   65  chown surani_love_huni en.stm32cubeprog_v2-4-0.zip
+   66  ls
+   67  unzip en.stm32cubeprog_v2-4-0.zip
+   68  ls
+   69  ./SetupSTM32CubeProgrammer-2.4.0.
+   70  ./SetupSTM32CubeProgrammer-2.4.0.linux
+   71  export PATH=<my STM32CubeProgrammer install directory>/bin:$PATH
+   72  cd ..
+   73  ls
+   74  cd surani_love_huni/
+   75  ls
+   76  ./SetupSTM32CubeProgrammer-2.4.0.exe
+   77  rm SetupSTM32CubeProgrammer-2.4.0.linux
+   78  rm SetupSTM32CubeProgrammer-2.4.0.exe
+   79  rm SetupSTM32CubeProgrammer-2.4.0.app/
+   80  rm -r SetupSTM32CubeProgrammer-2.4.0.app/
+   81  ls
+   82  unzip -help
+   83  l
+   84  ls
+   85  mkdir WS_STM32
+   86  mv en.stm32cubeprog_v2-4-0.zip WS_STM32/
+   87  ls
+   88  cd WS_STM32/
+   89  ls
+   90  pwd
+   91  /home/surani_love_huni/WS_STM32
+   92  unzip -d en.stm32cubeprog_v2-4-0.zip
+   93  unzip en.stm32cubeprog_v2-4-0.zip
+   94  ls
+   95  ls
+   96  ./SetupSTM32CubeProgrammer-2.4.0.exe
+   97  ls
+   98  cd WS_STM32/
+   99  ls
+  100  cd devPack/
+  101  ls
+  102  chown surani_love_huni devPack/
+  103  ls
+  104  cd devPack/
+  105  chmod 777 devPack/
+  106  chmod 777 -R devPack/
+  107  ls
+  108  chown -R surani_love_huni devPack/
+  109  ls
+  110  cd devPack/
+  111  ls
+  112  tar xvf ko.SOURCES-u-boot-stm32mp1-openstlinux-20-02-19.tar.xz
+  113  tar xvf ko. SDK -x86_64-stm32mp1-openstlinux-20-02-19.tar.xz
+  114  tar xvf en.SDK -x86_64-stm32mp1-openstlinux-20-02-19.tar.xz
+  115  tar -xvf en.SDK-x86_64-stm32mp1-openstlinux-20-02-19.tar.xz
+  116  ls
+  117  chown surani_love_huni stm32mp1-openstlinux-20-02-19/
+  118  ls
+  119  ls -al
+  120  sudo apt-get update
+  121  lsb_release -a
+  122  cd WS_STM32/devPack/
+  123  ls
+  124  chown surani_love_huni en.SOURCES-kernel-stm32mp1-openstlinux-20-02-19.tar.xz
+  125  chmod 777 en.SOURCES-kernel-stm32mp1-openstlinux-20-02-19.tar.xz
+  126  ls
+  127  sudo apt install screenfetch
+  128  screenfetch
+  129  ls
+  130  cd WS_STM32/
+  131  ls
+  132  mv SetupSTM32CubeProgrammer-2.4.0.app/ cubfiles/
+  133  sudo mv-r SetupSTM32CubeProgrammer-2.4.0.app/ cubfiles/
+  134  sudo mv -r SetupSTM32CubeProgrammer-2.4.0.app/ cubfiles/
+  135  sudo mv -R SetupSTM32CubeProgrammer-2.4.0.app/ cubfiles/
+  136  sudo mv SetupSTM32CubeProgrammer-2.4.0.app/ cubfiles/
+  137  ls
+  138  mv SetupSTM32CubeProgrammer-2.4.0.exe cubfiles/
+  139  sudo mv SetupSTM32CubeProgrammer-2.4.0.exe cubfiles/
+  140  sudo mv SetupSTM32CubeProgrammer-2.4.0.linux cubfiles/
+  141  ls
+  142  mv en.stm32cubeprog_v2-4-0.zip cubfiles/
+  143  sudo mv en.stm32cubeprog_v2-4-0.zip cubfiles/
+  144  ls
+  145  cd devPack/
+  146  ls
+  147  tar xvf en.SOURCES-kernel-stm32mp1-openstlinux-20-02-19.tar.xz
+  148  cd stm32mp1-openstlinux-20-02-19/sources/
+  149  ls
+  150  cd ..
+  151  cd sources/arm-ostl-linux-gnueabi/linux-stm32mp-4.19-r0/
+  152  ls
+  153  tar xvf linux-4.19.94.tar.xz
+  154  ls
+  155  history
