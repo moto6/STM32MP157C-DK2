@@ -1,0 +1,27 @@
+devtool deploy-target -Ss linux-stm32mp root@192.168.35.203:/
+
+
+~/stm32mp/Distribution-Package/openstlinux-20-02-19/build-openstlinuxweston-stm32mp1$
+
+
+devtool deploy-target -s myhelloword root@192.168.35.203
+
+
+
+SDK 환경설정
+source ~/stm32mp/Developer-Package/SDK/environment-setup-cortexa7t2hf-neon-vfpv4-ostl-linux-gnueabi
+
+
+터미널 접속
+sudo minicom -D /dev/ttyACM0
+
+
+/home/dhkim/workSpace_DHKim/STM32MP157C-DK2/3주차/Untitled Document 1
+
+
+좋은글들
+https://make.e4ds.com/make/st_quest_view.asp?q=3&idx=333
+
+https://make.e4ds.com/make/st_quest_view.asp?q=3&idx=327
+
+https://make.e4ds.com/make/st_quest_view.asp?q=2&idx=299
