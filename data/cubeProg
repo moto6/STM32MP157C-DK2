@@ -1,0 +1,22 @@
+export PATH=home/dhkim/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin:$PATH
+
+
+ln -s /STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin/STM32_Programmer_CLI
+
+
+
+STM32_Programmer_CLI -l usb
+
+
+cd /STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin/Drivers/rules
+
+
+<pwd>
+/home/dhkim/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin
+
+
+
+#stm32mp1
+export PATH=$PATH:~/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin
+
+
