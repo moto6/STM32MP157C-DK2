@@ -1,0 +1,17 @@
+devtool deploy-target -Ss linux-stm32mp root@192.168.35.203:/
+
+
+~/stm32mp/Distribution-Package/openstlinux-20-02-19/build-openstlinuxweston-stm32mp1$
+
+
+devtool deploy-target -s myhelloword root@192.168.35.203
+
+
+
+SDK 환경설정
+source ~/stm32mp/Developer-Package/SDK/environment-setup-cortexa7t2hf-neon-vfpv4-ostl-linux-gnueabi
+
+
+터미널 접속
+sudo minicom -D /dev/ttyACM0
+
